@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kimmyxyc.github.io</id>
     <title>KimmyXYC的博客</title>
-    <updated>2020-08-08T14:02:28.322Z</updated>
+    <updated>2020-08-09T07:21:04.910Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kimmyxyc.github.io"/>
     <link rel="self" href="https://kimmyxyc.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://kimmyxyc.github.io/images/avatar.png</logo>
     <icon>https://kimmyxyc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, KimmyXYC的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[建站感言]]></title>
+        <id>https://kimmyxyc.github.io/post/jian-zhan-gan-yan/</id>
+        <link href="https://kimmyxyc.github.io/post/jian-zhan-gan-yan/">
+        </link>
+        <updated>2020-08-09T07:05:16.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="我是kimmyxyc又见面啦"><strong>我是KimmyXYC，又见面啦！</strong></h2>
+<p>这个我继<a href="http://www.kimmyxyc.tk">kimmyxyc.tk</a>后第二个博客，与其不用的是，这个Gridea没法登陆，因为是使用静态页面来书写的，网站的管理要在本地先设置好再发送到GitHub仓库，没法实时同步。<br>
+当然，优点也是有的，网站可以较为容易地做得美观，套用模板较为方便，使用比较自由，等等。<br>
+同样，Gridea也支持Markdown具体语法可以点击<a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a>进行学习。<br>
+最后，祝大家在本站玩得快乐！<br>
+KimmyXYC于2020年8月9日记于杭州</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://kimmyxyc.github.io/post/hello-gridea/</id>
