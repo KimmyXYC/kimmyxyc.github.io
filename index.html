@@ -94,7 +94,7 @@
                   
                 <li><a href="https://kimmyxyc.github.io/friends" style="color:white">友链</a></li>
                 
-                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1596973299393" alt=""
+                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1596974238827" alt=""
                 class="menutopavatar"></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -385,6 +385,10 @@
         
 
         
+        <div id="sitegotimeDate">载入天数...</div>
+        <div id="sitegotimes">载入时分秒...</div>
+        <div id="cussitetime" style="display:none">08/08/2020</div>
+        
         <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>· Made with ❤️ by <a href="https://github.com/KimmyXYC" target="_blank">KimmyXYC</a> | Theme: <a
             href="https://github.com/850552586/gridea-theme-fog">Fog</a>
     </div>
@@ -393,6 +397,37 @@
     </div>
     </div>
 </body>
+
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()", 250);
+</script>
 
                 
     </div>
@@ -507,7 +542,7 @@
             <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://kimmyxyc.github.io/images/avatar.png?v=1596973299393" class="avatar">
+        <img src="https://kimmyxyc.github.io/images/avatar.png?v=1596974238827" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
