@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="我是KimmyXYC，又见面啦！
-这个我继kimmyxyc.tk后第二个博客。
+这个我继KimmyXYC.TK后第二个博客。
 和Typecho一样，Gridea也支持Markdown（具体语法可以点击这里进行学习），也一样可以使用模板。
 与Typecho不同的是，因为Gridea是使用..." />
     <meta name="keywords" content="建站" />
@@ -113,7 +113,7 @@
                   
                 <li><a href="https://kimmyxyc.github.io/friends" style="color:white">友链</a></li>
                 
-                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1596979115355" alt=""
+                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1597049546617" alt=""
                 class="menutopavatar"></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -299,7 +299,7 @@
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://search.pstatic.net/common?type=origin&amp;src=https://moe.best/usr/uploads/2019/11/1383797378.png" class="postimage" style="cursor:auto">
+                <img src="https://search.pstatic.net/common?type=origin&amp;src=https://moe.best/usr/uploads/2018/01/2519960032.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
                 <div class="postdate"><i class="fa fa-calendar"></i>2020-08-09</div>
@@ -324,7 +324,7 @@
         </div>
         <div class="text ">
             <h2 id="我是kimmyxyc又见面啦"><strong>我是KimmyXYC，又见面啦！</strong></h2>
-<p>这个我继<a href="http://www.kimmyxyc.tk">kimmyxyc.tk</a>后第二个博客。<br>
+<p>这个我继<a href="https://www.kimmyxyc.tk">KimmyXYC.TK</a>后第二个博客。<br>
 和Typecho一样，Gridea也支持Markdown（具体语法可以点击<a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a>进行学习），也一样可以使用模板。<br>
 与Typecho不同的是，因为Gridea是使用静态页面来书写的，发表博客需要在本地先写好再发送到Github Pages的仓库。</p>
 <h3 id="最后祝大家在本站玩得快乐"><strong>最后，祝大家在本站玩得快乐！</strong></h3>
@@ -384,30 +384,66 @@
         <div name="comment" style="background: white">
             <div class="commentcontainer">
                 
-                
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                <head>
+    <script src='https://kimmyxyc.github.io/media/js/valine.min.js'></script>
+    <script src="https://kimmyxyc.github.io/media/js/jquery.min.js"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+</head>
+<style>
+    @media screen and (min-width: 1300px) {
+        .v .vbtn .vsubmit {
+            border-radius: 0;
+            padding: 0;
+            color: #fff;
+            line-height: 44px;
+            width: 100%;
+            border: none;
+            background: #595485;
+        }
 
-<div id="gitalk-container"></div>
+        .v .vwrap .vedit .vctrl span.vpreview-btn,
+        .v .vwrap .vcontrol .col.col-20,
+        .v .vlist .vcard .vhead .vsys {
+            display: none;
+        }
 
-<script>
+        .v .vwrap .vmark .valert {
+            padding-top: 0px;
+        }
 
-  var gitalk = new Gitalk({
-    clientID: 'ecc46366a06c8ab3de30',
-    clientSecret: '15cd091a808e79af0bd8443d53d30ad13ac695ba',
-    repo: 'kimmyxyc.github.io',
-    owner: 'KimmyXYC',
-    admin: ['KimmyXYC'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+        .vtext {
+            padding: 0;
+        }
+    }
+</style>
 
-  gitalk.render('gitalk-container')
+<body>
+    <div id="vcomments">
+    </div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'UlGUdoV7H5wDb3bDfLfge4Bj-gzGzoHsz',
+            appKey: 'fXbV9RLfGaHULPbD5QHAdcjP',
+            notify: true,
+            verify: false,
+            avatar: 'retro',
+            pageSize: 10,
+            placeholder: '既然来了，何不畅所欲言呢？',
+            visitor: true // 阅读量统计
+        })
+    </script>
+</body>
 
+
+<script type="text/javascript">
+    jinrishici.load(function (result) {
+        var jrsc_plac = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin
+            .dynasty + " · " + result.data.origin.author
+        document.getElementById("veditor").setAttribute("placeholder", jrsc_plac);
+    });
 </script>
-
-                
-                
+                <div class="clear"></div>
                 
             </div>
         </div>
@@ -553,7 +589,7 @@
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://search.pstatic.net/common?type=origin&amp;src=https://moe.best/usr/uploads/2019/11/1383797378.png" class="postimage" style="cursor:auto">
+                <img src="https://search.pstatic.net/common?type=origin&amp;src=https://moe.best/usr/uploads/2018/01/2519960032.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
                 <div class="postdate"><i class="fa fa-calendar"></i>2020-08-09</div>
@@ -578,7 +614,7 @@
         </div>
         <div class="text ">
             <h2 id="我是kimmyxyc又见面啦"><strong>我是KimmyXYC，又见面啦！</strong></h2>
-<p>这个我继<a href="http://www.kimmyxyc.tk">kimmyxyc.tk</a>后第二个博客。<br>
+<p>这个我继<a href="https://www.kimmyxyc.tk">KimmyXYC.TK</a>后第二个博客。<br>
 和Typecho一样，Gridea也支持Markdown（具体语法可以点击<a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a>进行学习），也一样可以使用模板。<br>
 与Typecho不同的是，因为Gridea是使用静态页面来书写的，发表博客需要在本地先写好再发送到Github Pages的仓库。</p>
 <h3 id="最后祝大家在本站玩得快乐"><strong>最后，祝大家在本站玩得快乐！</strong></h3>
@@ -638,30 +674,167 @@
     <div name="comment" style="background: white;margin-top:100px">
         <div class="commentcontainer">
             
-            
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+            <head>
+    <script src='https://kimmyxyc.github.io/media/js/valine.min.js'></script>
+    <script src="https://kimmyxyc.github.io/media/js/jquery.min.js"></script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+</head>
+<style>
+    @media screen and (min-width: 1300px) {
+        .v {
+            margin-top: 10%;
+        }
 
-<div id="gitalk-container"></div>
+        .v .vwrap {
+            overflow: hidden;
+        }
 
-<script>
+        .v .vwrap {
+            padding: 0 0 44px;
+        }
 
-  var gitalk = new Gitalk({
-    clientID: 'ecc46366a06c8ab3de30',
-    clientSecret: '15cd091a808e79af0bd8443d53d30ad13ac695ba',
-    repo: 'kimmyxyc.github.io',
-    owner: 'KimmyXYC',
-    admin: ['KimmyXYC'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+        .v .veditor {
+            resize: none;
+        }
 
-  gitalk.render('gitalk-container')
+        .veditor::placeholder {
+            color: #b3b3b3;
+            font-size: 18px;
+            text-align: center;
+            line-height: 3rem;
+            font-family: kaiti;
+        }
 
+        .v .vwrap .vedit {
+            padding-top: 0
+        }
+
+        .v .vwrap .vheader {
+            width: 80%;
+            bottom: 0;
+            position: absolute;
+            background: #f7f7f7;
+        }
+
+        .v .vinput {
+            padding: 10px 15px;
+        }
+
+        .v .vwrap .vheader .vinput {
+            border-bottom: 0px
+        }
+
+        .v .vwrap .vedit .vctrl {
+            margin-top: -44px;
+            right: 0;
+            position: absolute;
+            margin-right: -3px;
+        }
+
+        .v .vwrap .vcontrol {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20%;
+            padding-top: 0px;
+        }
+    }
+
+    .v .vwrap .vcontrol .col.col-80 {
+        width: 100%;
+    }
+
+    .v .vbtn.vsubmit {
+        border-radius: 0;
+        padding: 0;
+        color: #fff;
+        line-height: 44px;
+        width: 100%;
+        border: none;
+        background: #595485;
+    }
+
+    .v .vwrap .vedit .vctrl span.vpreview-btn,
+    .v .vwrap .vcontrol .col.col-20,
+    .v .vlist .vcard .vhead .vsys {
+        display: none;
+    }
+
+    .v .vwrap .vmark .valert {
+        padding-top: 0px;
+    }
+
+    .vtext {
+        padding: 0;
+    }
+
+    @media screen and (max-width: 1300px) {
+        .v .vwrap .vmark .valert {
+            margin-top: 60%;
+        }
+
+        .vwrap {
+            margin: 15px;
+            width: 100%;
+        }
+
+        .v .vwrap .vheader .vinput {
+            padding: 10px 5px;
+        }
+
+        .v .vwrap {
+            overflow: auto;
+        }
+
+        .v .veditor {
+            min-height: 30rem;
+            resize: none;
+        }
+
+        .v .vinput {
+            padding: 10px 15px;
+            font-size: 20px;
+        }
+
+        .v .vwrap .vedit .vctrl {
+            right: 0;
+        }
+
+        .v .vempty {
+            padding: 1.25em;
+            text-align: center;
+            color: #999;
+            font-size: 25px;
+        }
+
+    }
+</style>
+
+<body>
+    <div id="vcomments1"></div>
+    <script>
+        new Valine({
+            el: '#vcomments1',
+            appId: 'UlGUdoV7H5wDb3bDfLfge4Bj-gzGzoHsz',
+            appKey: 'fXbV9RLfGaHULPbD5QHAdcjP',
+            notify: true,
+            verify: false,
+            avatar: 'retro',
+            pageSize: 10,
+            placeholder: '既然来了，那就留个痕迹吧~',
+            visitor: true // 阅读量统计
+        })
+    </script>
+</body>
+
+<script type="text/javascript">
+    jinrishici.load(function (result) {
+        var jrsc_plac = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin
+            .dynasty + " · " + result.data.origin.author
+        document.getElementById("veditor").setAttribute("placeholder", jrsc_plac);
+    });
 </script>
-
-            
-            
+            <div class="clear"></div>
             
         </div>
     </div>

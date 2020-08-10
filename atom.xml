@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kimmyxyc.github.io</id>
     <title>KimmyXYC的博客</title>
-    <updated>2020-08-09T13:18:38.523Z</updated>
+    <updated>2020-08-10T09:06:27.598Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kimmyxyc.github.io"/>
     <link rel="self" href="https://kimmyxyc.github.io/atom.xml"/>
@@ -17,7 +17,7 @@
         </link>
         <updated>2020-08-09T07:05:16.000Z</updated>
         <content type="html"><![CDATA[<h2 id="我是kimmyxyc又见面啦"><strong>我是KimmyXYC，又见面啦！</strong></h2>
-<p>这个我继<a href="http://www.kimmyxyc.tk">kimmyxyc.tk</a>后第二个博客。<br>
+<p>这个我继<a href="https://www.kimmyxyc.tk">KimmyXYC.TK</a>后第二个博客。<br>
 和Typecho一样，Gridea也支持Markdown（具体语法可以点击<a href="https://www.jianshu.com/p/191d1e21f7ed">这里</a>进行学习），也一样可以使用模板。<br>
 与Typecho不同的是，因为Gridea是使用静态页面来书写的，发表博客需要在本地先写好再发送到Github Pages的仓库。</p>
 <h3 id="最后祝大家在本站玩得快乐"><strong>最后，祝大家在本站玩得快乐！</strong></h3>
