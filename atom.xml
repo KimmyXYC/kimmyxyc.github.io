@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kimmyxyc.github.io</id>
     <title>KimmyXYC的博客</title>
-    <updated>2020-08-11T09:36:27.868Z</updated>
+    <updated>2020-08-15T09:59:26.745Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kimmyxyc.github.io"/>
     <link rel="self" href="https://kimmyxyc.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://kimmyxyc.github.io/images/avatar.png</logo>
     <icon>https://kimmyxyc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, KimmyXYC的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[网站状态说明]]></title>
+        <id>https://kimmyxyc.github.io/post/wang-zhan-zhuang-tai-shuo-ming/</id>
+        <link href="https://kimmyxyc.github.io/post/wang-zhan-zhuang-tai-shuo-ming/">
+        </link>
+        <updated>2020-08-15T09:23:39.000Z</updated>
+        <content type="html"><![CDATA[<p>从2020年7月底，我开始学习建站，并在7月31日搭建了第一个网站：<a href="https://www.kimmyxyc.tk">kimmyXYCの博客</a>，但是比较遗憾的是，因为不明原因，此网站搭建并不顺利，不但数据库无法正常导入，而且出现了评论无法使用的情况。<br>
+8月8日，我决定在GitHub Pages上搭建一个博客。于是，这个博客就诞生了。<br>
+8月13日，因第一个网站的搭建失误，我决定用moe.kimmyxyc.tk子域名和test.kimmyxyc.tk子域名搭建<a href="https://moe.kimmyxyc.tk">萌化基地</a>和<a href="https://test.kmmyxyc.tk">测试基地</a>。<br>
+同日，我注册了<a href="https://www.kimmyxyc.ga">KimmyXYC.GA</a>这个域名，用于存放KimmyXYC.TK早期时文件。<br>
+8月15日，第一个网站大量BUG被同学找出。无奈之余，准备重建网站。<br>
+同日，尝试使用Z-Blog失败，zblog.kimmyxyc.tk子域名废弃。<br>
+同日下午6点，网站重建完毕，准备恢复数据。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[建站感言]]></title>
         <id>https://kimmyxyc.github.io/post/jian-zhan-gan-yan/</id>
