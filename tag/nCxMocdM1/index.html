@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<style>
-    a {
-        text-decoration: none;
-    }
-</style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,7 +6,7 @@
 <link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/live2d.css">
 <link rel="stylesheet" href="https://kimmyxyc.github.io/styles/main.css">
-<title>标签-KimmyXYC的博客</title>
+<title>KimmyXYC的博客</title>
 
 
 <body>
@@ -20,13 +14,8 @@
     <div id="content">
         <div class="nav-large">
             <div class="row">
-                <div class="side"><head>
-    <meta name="description" content="十步一代码，千里不BUG" />
-    <link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/bootstrap.min.css">
-</head>
-
-
-<body>
+                
+                <div class="side"><body>
     
 
 
@@ -95,29 +84,29 @@
                   
                 <li><a href="https://kimmyxyc.github.io/friends" style="color:white">友链</a></li>
                 
-                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1597741329309" alt=""
+                  <li><img src="https://kimmyxyc.github.io/images/avatar.png?v=1597756495243" alt=""
                 class="menutopavatar"></li>
             </ul>
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    <div id="socialMenu" class="modal">
+    <div id="socialMenu">
         <div class="animate">
             <div class="socialContainer">
                 
-                <a href="https://github.com/KimmyXYC" target="_blank"><i><img class="icon"
+                <a href="https://github.com/KimmyXYC" target="_blank"><i style="font-size: 40px;"><img class="icon "
                             src="https://kimmyxyc.github.io/media/images/github.png" alt=""></i></a>
                 
                 
-                <a onclick="showqq()" style="cursor:pointer"><i><img class="icon" src="https://kimmyxyc.github.io/media/images/QQ.png"
+                <a onclick="showqq()" style="cursor:pointer"><i style="font-size: 40px;"><img class="icon" src="https://kimmyxyc.github.io/media/images/QQ.png"
                             alt=""></i></a>
                 
                 
-                <a href="https://www.zhihu.com/people/kimmyxyc" target="_blank"><i><img class="icon"
+                <a href="https://www.zhihu.com/people/kimmyxyc" target="_blank"><i style="font-size: 40px;"><img class="icon"
                             src="https://kimmyxyc.github.io/media/images/zh.png" alt=""></i></a>
                 
                 
-                <a href="https://space.bilibili.com/366080481" target="_blank"><i><img class="icon"
+                <a href="https://space.bilibili.com/366080481" target="_blank"><i style="font-size: 40px;"><img class="icon"
                             src="https://kimmyxyc.github.io/media/images/bilibili.png" alt=""></i></a>
                 
                 
@@ -264,74 +253,14 @@
     function showqq() {
         var qq = document.getElementById("qq").innerHTML;
         if (qq != '')
-            alert("博主的QQ联系方式为：" + qq);
+            window.location.href = "tencent://message/?uin=" + qq + "&Site=&Menu=yes";
         else
             alert("博主暂未设置QQ联系方式");
     }
-</script></div>
-                <div id="main" class="col-xs-12 col-sm-7">
-                    <style>
-    @keyframes fade-in {
-        0% {
-            opacity: 0;
-        }
-
-        /*��ʼ״̬ ͸����Ϊ0*/
-        40% {
-            opacity: 0;
-        }
-
-        /*����״̬ ͸����Ϊ0*/
-        100% {
-            opacity: 1;
-        }
-
-        /*����״̬ ͸����Ϊ1*/
-    }
-
-    @-webkit-keyframes fade-in {
-
-        /*���webkit�ں�*/
-        0% {
-            opacity: 0;
-        }
-
-        40% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    .postimage {
-        width: 100%;
-    }
-
-    .tag-container {
-        min-height: 100vh;
-        animation: fade-in;
-        /*��������*/
-        animation-duration: 1s;
-        /*��������ʱ��*/
-        -webkit-animation: fade-in 1s;
-        /*���webkit�ں�*/
-    }
-
-    @media screen and (max-width:1300px) {
-        .tag-container {
-            margin-top: 100px;
-            animation: fade-in;
-            /*��������*/
-            animation-duration: 1s;
-            /*��������ʱ��*/
-            -webkit-animation: fade-in 1s;
-            /*���webkit�ں�*/
-        }
-    }
-</style>
-<link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/font-awesome.css">
+</script>
+</div>
+                <div id="main" class="col-xs-12 col-sm-7" style="width:50%;margin-top:50px;left:27%">
+                    <link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/font-awesome.css">
 <div class="tag-container">
     
     <div class="postshow">
@@ -434,14 +363,46 @@
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-2"></div>
+                
             </div>
+            
+                <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
+        </meting-js>
+    </div>   
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    var aplayerid = "2602222983";
+    var aplayerserver = "netease";
+    var aplayerorder = "default";
+    var aplayerautoplay = "true";
+    var aplayer = $("#myaplayer");
+    aplayer.attr("server",aplayerserver);
+    aplayer.attr("id",aplayerid);
+    aplayer.attr("order",aplayerorder);
+    if(aplayerautoplay=="true")
+        aplayer.attr("autoplay","true");
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+            
         </div>
         <div id="bg">
         </div>
-        <div id="bgchoice" style="display: none">link</div>
-        
-        <div id="bgurl" style="display:none">https://ericamblog.oss-cn-shanghai.aliyuncs.com/GrideaFog/custom-bgimage.png</div>
-           
+        <div id="bgchoice" style="display: none">link
+            </div>
+            
+            <div id="bgurl" style="display:none">https://ericamblog.oss-cn-shanghai.aliyuncs.com/GrideaFog/custom-bgimage.png</div>
+               
     </div>
 
 
@@ -546,69 +507,8 @@
   }
   </script> 
 </body>
-        <div style="margin-top:50px"></div>
-        <style>
-    @keyframes fade-in {
-        0% {
-            opacity: 0;
-        }
-
-        /*��ʼ״̬ ͸����Ϊ0*/
-        40% {
-            opacity: 0;
-        }
-
-        /*����״̬ ͸����Ϊ0*/
-        100% {
-            opacity: 1;
-        }
-
-        /*����״̬ ͸����Ϊ1*/
-    }
-
-    @-webkit-keyframes fade-in {
-
-        /*���webkit�ں�*/
-        0% {
-            opacity: 0;
-        }
-
-        40% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    .postimage {
-        width: 100%;
-    }
-
-    .tag-container {
-        min-height: 100vh;
-        animation: fade-in;
-        /*��������*/
-        animation-duration: 1s;
-        /*��������ʱ��*/
-        -webkit-animation: fade-in 1s;
-        /*���webkit�ں�*/
-    }
-
-    @media screen and (max-width:1300px) {
-        .tag-container {
-            margin-top: 100px;
-            animation: fade-in;
-            /*��������*/
-            animation-duration: 1s;
-            /*��������ʱ��*/
-            -webkit-animation: fade-in 1s;
-            /*���webkit�ں�*/
-        }
-    }
-</style>
-<link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/font-awesome.css">
+            <div style="margin-top:50px"></div>
+            <link rel="stylesheet" href="https://kimmyxyc.github.io/media/css/font-awesome.css">
 <div class="tag-container">
     
     <div class="postshow">
@@ -662,16 +562,16 @@
 </div>
 
 </div>
-        <div class="pagination-container">
-            
-            
+            <div class="pagination-container">
+                
+                
+            </div>
         </div>
-    </div>
-    <div id="landlord">
-        <div class="message" style="opacity:0"></div>
-        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
-    </div>
-    <div id="domainname" style="display:none">https://kimmyxyc.github.io</div>
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+        </div>
+        <div id="domainname" style="display:none">https://kimmyxyc.github.io</div>
 </body>
 
 </html>
@@ -679,7 +579,7 @@
 
 <script type="text/javascript">
     var message_Path = '/live2d/'
-    var home_Path = document.getElementById("domainname").innerHTML+"/"; //此处修改为你的域名，必须带斜杠
+    var home_Path = document.getElementById("domainname").innerHTML + "/"; //此处修改为你的域名，必须带斜杠
 </script>
 <script type="text/javascript" src="https://kimmyxyc.github.io/media/live2d/js/live2d.js"></script>
 <script type="text/javascript" src="https://kimmyxyc.github.io/media/live2d/js/message.js"></script>
